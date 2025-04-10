@@ -33,6 +33,9 @@ This project contains automated tests for the sample page using Cypress. It is d
     npm run clean-report
     ```
 
+    ![image](https://github.com/user-attachments/assets/65645b24-8366-4f40-804a-ddb47e4b4d5a)
+
+
 ## Questions and Answers
 - **How would you integrate this test suite into a CI/CD pipeline (e.g., GitHub Actions,
 Jenkins)?** _To integrate this suite into a pipeline, you must first create a configuration file that outlines the step-by-step process to install the project and its dependencies, followed by its execution and the generation of an artifact containing the results—in this case, Mochawesome reports. Once the configuration file is set up, if continuous testing is desired, the pipeline can be connected to the development pipelines to ensure that the automated test suite runs before each deployment._
